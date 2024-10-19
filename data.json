@@ -1,0 +1,25 @@
+{
+    "courses": {
+        "theory": [
+            { "id": 1, "name": "Advanced Mathematics" },
+            { "id": 2, "name": "Computer Science 101" },
+            { "id": 3, "name": "Data Structures" },
+            { "id": 4, "name": "Physics I" }
+        ],
+        "lab": [
+            { "id": 1, "name": "Physics Lab" },
+            { "id": 2, "name": "Computer Lab" }
+        ]
+    },
+    "teachers": [
+        { "id": 1, "name": "Dr. Smith", "rating": 4.5, "projects": "AI Research", "patents": "AI in Healthcare", "background": "PhD in Computer Science" },
+        { "id": 2, "name": "Prof. Johnson", "rating": 4.0, "projects": "Quantum Computing", "patents": "Quantum Algorithms", "background": "PhD in Physics" },
+        { "id": 3, "name": "Dr. Lee", "rating": 4.7, "projects": "Big Data Analytics", "patents": "Data Privacy", "background": "PhD in Statistics" },
+        { "id": 4, "name": "Prof. Davis", "rating": 4.2, "projects": "Robotics", "patents": "Automation Technologies", "background": "PhD in Engineering" },
+        { "id": 5, "name": "Dr.manikanta", "rating": 4.5, "projects": "Machine learning", "patents": "AI  Innovations", "background": "PhD in Engineering" },
+        { "id": 6, "name": "Prof. malavika", "rating": 4.3, "projects": "deep learning", "patents": "neural networks", "background": "PhD in Engineering" }
+        
+        
+    ]
+}
+

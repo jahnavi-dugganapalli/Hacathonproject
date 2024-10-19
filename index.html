@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student course-selection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student course-selection</h1>
+        
+        <div class="course-selection">
+            <h2>Select Courses and teachers</h2>
+            <form id="courseForm">
+                <div class="course-type">
+                    <h3>Theory Courses</h3>
+                    <label for="theoryCourse1">Theory Course 1:</label>
+                    <select id="theoryCourse1" required>
+                        <option value="">Select Theory Course</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr. Smith</option>
+                        <option value="">Prof. Johnson</option>
+                        <option value="">Dr. Lee</option>
+                        <option value="">Prof. Davis</option>
+                    </select>
+                    
+                    <label for="theoryCourse2">Theory Course 2:</label>
+                    <select id="theoryCourse2" required>
+                        <option value="">Select Theory Course</option>
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr. Smith</option>
+                        <option value="">Prof. Johnson</option>
+                        <option value="">Dr. Lee</option>
+                        <option value="">Prof. Davis</option>
+                    </select>
+                    <label for="theoryCourse3">Theory Course 3:</label>
+                    <select id="theoryCourse3" required>
+                        <option value="">Select Theory Course</option>
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr. Smith</option>
+                        <option value="">Prof. Johnson</option>
+                        <option value="">Dr. Lee</option>
+                        <option value="">Prof. Davis</option>
+                    </select>
+                    <label for="theoryCourse4">Theory Course 4:</label>
+                    <select id="theoryCourse4" required>
+                        <option value="">Select Theory Course</option>
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr. Smith</option>
+                        <option value="">Prof. Johnson</option>
+                        <option value="">Dr. Lee</option>
+                        <option value="">Prof. Davis</option>
+                    </select>
+                </div>
+
+                <div class="course-type">
+                    <h3>Lab Courses</h3>
+                    <label for="labCourse1">Lab Course 1:</label>
+                    <select id="labCourse1" required>
+                        <option value="">Select Lab Course</option>
+                        
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr.manikanta</option>
+                        <option value="">Prof. malavik</option>
+                        
+                    </select>
+                    
+                    <label for="labCourse2">Lab Course 2:</label>
+                    <select id="labCourse2" required>
+                        <option value="">Select Lab Course</option>
+                        
+                    </select>
+                    <select id="select teacher" required>
+                        <option value="">select teacher</option>
+                        <option value="">Dr.manikanta</option>
+                        <option value="">Prof. malavik</option>
+                        
+                    </select>
+                </div>
+
+                <button type="submit">Submit Courses</button>
+            </form>
+        </div>
+
+        <div class="teacher-profiles">
+            <h2>Teacher Profiles</h2>
+            <div id="teacherList"></div>
+        </div>
+
+        <div class="feedback">
+            <h2>Submit Feedback</h2>
+            <form id="feedbackForm">
+                <textarea id="feedbackText" placeholder="Write your feedback here..." required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
